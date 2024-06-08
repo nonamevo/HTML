@@ -1,1 +1,75 @@
+      + Cấu trúc file HTML và ý nghĩa thẻ
 
+- title: tiêu đề trang.
+- DOCTYPEhtml: DOCTYPE dịch ra là kiểu tài liệu, để khai báo kiểu tài liệu gì, cụ thể điền html có nghĩa là tai flieeuj viết bằng HTML.
+- <html></html>: thẻ bắt buộc, element cấp cao nhất, có nhiệm vụ đóng gói tất cả nội dung của trang HTML.
+- <head></head>: khai báo các thông tin meta của trang web.
+- <body></body>: thẻ dùng đóng gói tất cả nội dung sẽ hiển thị trên trang.
+------------------------------------------                        
+      + Một số thẻ meta
+
+- <meta charset="UTF-8">: xác định bộ kí tự được sử dụng, utf-8 để hỗ trợ tiếng việt.
+- <meta name="keywords" content="HTML,CSS,JavaScript">: công cụ tìm kiếm.
+- <meta name="description" content="Free Web tutorials">: mô tả về trang web của bạn. 
+- <meta name="author" content="John Doe">: tác gải của 1 trang.
+- <meta name="viewport" content="width=device-width, initial-scale=1.0">: đặt chế độ xem để hiển thị tốt trên tất cả thiết bị.
+-----------------------------------------	
+      + tạo Comments, Elements, attributes
+
+* Comments(chú thích)
+- là các chú thích để dễ nhớ và dễ nhìn, hiểu được đoạn code ấy có ý nghĩa là gì 'không hiển thị trên website'.
+- cú pháp: <!--nội dung được comments-->.
+- phím tắt: ctrl+/(windowns) hoặc cmd+/(mac).
+
+* Elements(phần tử)
+- được xác định bởi:
+ + một thẻ bắt đầu
+ + một vài nội dung
+ + một thẻ kết thúc
+- cú pháp: <tagname>nội dung</tagname>.
+- trong đó: 
+ + <tagname>: thẻ bắt đầu element
+ + </tagname>: thẻ kết thúc của element
+ + nội dung: nội dung của elment
+- ví dụ: <h1>tiêu đề lớn</h1>.
+- các tagname không phân biệt chữ hoa, chứ thường. nên viết chữ thường.
+
+* Attributes(thuộc tính)
+- cung cấp thêm thông tin cho các element, nằm trong thẻ mở.
+- một elmwnt có thể nhiều thuộc tính.
+- cú pháp: <tagname attribute-name="value">nội dung...</tagname>.
+- trong đó:
+ + attibute-name: tên thuộc tính
+ + "value": giá trị của thuộc tính
+- ví dụ: <html lang="vi"></html>
+------------------------------------------
+      + tạo Headings, Paragraphs, Formatting
+
+* Headings(tiêu đề)
+- là những tiêu đề hoặc phụ đề hiển thị trên web.
+- có 6 thẻ heading:
+ + h1: thẻ tiêu đề quan trọng nhất. mỗi trang chỉ có 1 thẻ h1, nếu có nhiều hơn nó vẫn chạy nhưng không chuẩn SEO.
+ + h2
+ + h3 
+ + h4
+ + h5 
+ + h6: thẻ tiêu đề ít quan trọng nhất.
+
+* Paragraphs(đoạn văn)
+- luôn luôn bắt đầu trên 1 dòng mới và thường là 1 khối văn bản.
+- cú pháp: <p>nội dung...</p>.
+ + 1 số thẻ liên quan:
+- <hr>(horizontal ruleles - quy tắc ngang): dùng để ngắt chủ để, được hiển thị dưới dạng 1 đường kẻ ngang(empty tag - thẻ trống).
+- <br>(break-ngắt): dùng để ngắt dòng trong 1 đoạn văn bản.
+
+* Forrmatting(định dạng)
+- b(bold- in đậm): văn bản in đậm.
+- strong: văn bản in đậm và quan trọng.
+- i(italic- in nghiêng): văn bản in nghiêng.
+- em(emphasized- nhấn mạnh): văn bản in nghiêng và quan trọng.
+- small: văn bản chử nhỏ hơn.
+- sub(subscripted- chỉ số dưới): văn bản có chỉ số dưới.
+- sup(superscripted- chỉ số trên): văn bản có chỉ số trên.
+- ins(inserted- chèn): văn bản được chèn, có gạch chân bên dưới.
+- del(deleted- xóa): văn bản đã xóa, gạch ở giữa chữ.
+- mark(marked- đánh dấu): văn bản được đánh dấu.
