@@ -1,0 +1,154 @@
+      + Thẻ <a> (chèn link)
+- Thẻ <a></a>(anchor- mỏ neo): là thẻ để khi click vào sẽ chuyển hướng đến trang khác.
+- Cú pháp: <a href="url>text</a>.
+- Thuộc tính:
+ + href (Hypertext Reference- tài liệu tham khảo dạng siêu văn bản): thuộc tính xác định địa chỉ liên kết.
+ + target: thuộc tính xác định nơi mà tài liệu được mở.
+  - _self: mặc định. mở tài liệu ở tab hiện tại.
+  - _blank: mở tài liệu trong tab mới.
++ title: thông tin bổ sung về một element.
+-------------------------------------
+      + Thẻ <img> (chèn ảnh)
+- Thẻ <img/>: là thẻ để nhúng ảnh vào trang web, thẻ img là thẻ trống, chỉ chứa các thuộc tính và không có thẻ đóng.
+- Cú pháp: <img src="duong-dan-hinh-anh.ipg" alt="mô tả hình ảnh">.
+- Thuộc tính:
+ + src(source- nguồn): chèn đường dẫn  ảnh.
+ + alt(alternate- thay thế): văng bản thay thế cho hình ảnh, khi đường dẫn ảnh bị lỗi.
+------------------------------------
+      + File Paths (đường dẫn)
+- Absolute File Paths(đường dẫn tệp tuyệt đối): là URl đầy đủ của tệp. 
+ + <img src="https://28tech.com.vn/assets/img/logo.png" alt="logo 28tech">.
+- Relative File Paths(đường dẫn tệp tương đối): trỏ đến một tệp liên quan đến trang hiện tại.
+ + <img src="logo.png" alt ="logo">: file "logo.png" nằm cùng thư mục hiện tại.
+ + <img src="images/logo.png">: file "picture.png" nằm trong thư mục images trong thư mục hiện tại.
+ + <img src="/iamges/logo.png">: file "picture.png" nằm trong thư mục gốc của trang web hiện tại.
+ + <img src="../logo.png">: file "oicture.png" nằm trong thư mục tăng một cấp so với thư mục hiện tại.
+
+- kết hợp thẻ a với thẻ img
+ + <a href=https://28tech.com.vn/
+<img rc="https://28tech.com.vn/asets/img/logo.png" alt="logo 28tech"> 
+   </a>.
+------------------------------------
+      + Thẻ <video> (chèn video)
+- thẻ <video></video>: là thẻ để nhúng video vào trang web. trong thẻ video có thẻ <source> để chứa đường dẫn file video và kiểu video.
+- Cú pháp:
+ + <video width="320" height="240" control>
+<source src="link-video.mp4" type="video/mp4">
+   </video>.
+- Thuộc tính:
+ + width/height: chiều rộng và chiều cao của video. nếu không để width/height thì web có thể bị nhấp nháy trong khi tải video.
+ + controls: thuộc tính điều khiển, như là bật, tạm dùng, âm lượng.
+ + loop: lặp lại video.
+ + src: đường dẫn video.
+ + type: kiểu video (mp4, ogg, webm).
+ + autoplay: tự động phát video.
+ + muted: tắt tiếng.
+* Lưu ý:
+ - Đoạn văn bản ở trong thẻ video sẻ chỉ hiện thị khi trình duyệt không hỗ trợ video.
+ - Trên trình duyệt chrome không cho phép tự đọng phát video. muốn tự phát video thì thêm thuộc tính muted.
+------------------------------------
+      + Thẻ audio (chenf audio)
+- Thẻ <audio></audio>: là thẻ để nhúng audio vào trang web. trong thẻ audio có thẻ <source> để chứa đường dẫn file audio và kiểu audio.
+- Cú pháp :
+ + <audio src="link-audio.mp3" type="audio/mpeg">
+   </audio>
+- Thuộc tính:
+ + controls: thuộc tính điểu khiển, bật, tạm dừng, âm lượng.
+ + loop: lặp lại audio.
+ + src: đương dẫn audio.
+ + type: kiểu video (vd: mpeg- lag mp3, ogg, webm, wav).
+ + autoplay : tự đọng phát audio.
+ + muted: tắt tiếng.
+* Lưu ý:
+ - Đoạn văn bản ở trong thẻ audio sẻ chỉ hiển thị khi trình duyệt không hỗ trợ thẻ audio.
+ - Trên trình duyệt chrome không cho phép tự động phát video. nếu muốn tự động phát được thì phải thêm thuộc tính muted.
+------------------------------------
+      + Thẻ table
+- Thẻ <table></table>: dùng để tạo bảng trong html.
+- Ý nghĩa các thẻ:
+ + <table></table>: xác định một bảng.
+ + <thead></thead>: phần đầu của bảng.
+ + <tbody></tbody>: phần thân của bảng.
+ + <tr></tr>(table row): xác định 1 hàng của bảng.
+ + <th></th>(table header): xác định tiêu đề của bảng.
+ + <tf></td>(table data): xác định dữ liệu của bảng.
+- Thuộc tính: 
+ + colspan: tạo ô mở rộng trên nhiều cột.
+ + rowspan: tạo ô kéo dài trên nhiều hàng.
+------------------------------------
+      + Thẻ ul, ol (chèn danh sách)
+- Kiểu ul:
+ + kiểu <ul></ul>(Unordered List- không sawos xếp): các mục con của nó sẽ không được đánh số mà chỉ được đánh dấu bằng hình tròn.
+- cú pháp:
+ + <ul>
+ <li>mục 1</li>
+   </ul>
+- Ý nghĩa các thẻ:
+ + <ul></ul>(Unordered List): danh sách không hiển thị đánh số.
+ + <li></li>(List Item): 1 mục trong danh sách.
+
+- Kiểu ol
+-Thuộc tính dành riêng cho thẻ <ol></ol>: 
+ + type="1": mặc định, các mục sẽ đánh dưới dạng số.
+ + type"A": các mục sẽ đánh dưới dạng in hoa.
+ + type"a": các mục sẽ đánh dưới dạng chữ thường.
+ + type"I": các mục sẽ đánh dưới dạng La Mã viết hoa.
+ + type"i: các mục sẽ đánh dưới dạng La Mã viết thường. 
+------------------------------------
+      + Phân biệt kiểu hiện thị của elemrnt: block và inline
+- Kiểu block (khối):
+ + luôn luôn bắt đầu trên 1 dòng mới, và trình duyệt sẽ tự động thêm khỏng trống trước và sau element.
+ + Luôn luôn chiếm toàn bộ chiều rộng có sẵn.
+ + 1 số thẻ dạng block hay dùng:
+  - div, footer, form, h1->h6, header, hr, li, main, nav, ol, p, section, table, ul.
+
+- Kiểu inline(nội tuyến- trong hàng)
+ + Không bắt đầu trên 1 dòng mới, chiều rộng bằng với chiều rộng của ekement đó.
+ + 1 số thẻ dạng inline:
+  - a, b, br, button, em, i, img, input, label, select, span, strong, textarea.
+
+* Lưu ý:
+- Khi sử dụng cần nhớ quy tắc đảm bảo mô hình nội dung của HTML:
+ + Phần tử cấp đọ inline không được chứa phần tử cấp độ block.
+ + Inline chỉ chứa dữ liệu hoặc các phần tử inline khác.
+ + Phần tử block thì được chứa các phần tử block, inline, dữ liệu.
+ + Có trường hợp ngoại lệ là thẻ a (kiểu inline) nhưng có thể chứa phần tử kiểu block.
+------------------------------------
+      + Class và Id
+- Class: 
+ + Thuộc tính class dùng để xác định một hoặc nhiều tên lớp cho phần tử html. tên lướp có thể dùng trong css hoặc javascript để thwucj hiện 1 số tác vụ nhất định cho phần tử có tên lớp đó
+ - 1 class có thể áp dụng cho được nhiều element và các element này không nhất thiết phải cùng loại thẻ.
+ - 1 element có thể thêm được nhiều class.
+ - Thuộc tính class có thể được sử dụng trên bất kỳ phần tử html nào.
+ - Tên lớp có phân biệt chữ hoa chữ thường.
+
+- Id:
+ + Thuộc tính id dùng để xác định một id duy nhất cho một element.
+  - Trog 1 trang các element không được phép trùng tên id.
+  - Tên id có thể dùng trong css hoặc javascript để thực hiện 1 số tác vụ nhất định cho phần tử có tên id đó.
+  - Tên id có phân biệt chữ hoa chữ thường.
+  - Lưu ý: tên id phải chứa ít nhất 1 ký tự, không được bắt đầu bằng số và không chứa khoảng trắng(dấu cách,tab).
+
+* Quy tắc đặt tên class và id (giống nhau):
+ - Các ký tự là chữ cái viết thường: từ a->z.
+ - Các ký tự là chứ cái viết hoa: từ A->Z.
+ - Các ký tự là chữ số: 0->9.
+ - Dấu gạch dưới: _
+ - Dấu gạch nối: -
+* Lưu ý: tên id và tên class tuyệt đối:
+ - Không chứa các ký tự đặc biệt ( vd: !@#$%^&).
+ - Không bắt đầu là 1 số từ 0->9.
+
+* Điểm khác nhau giữa id và class:
+ + Id :
+  - 1 phần tử chỉ nhận 1 id.
+  - 1 tên id chỉ có thể dùng để đặt cho 1 phần tử duy nhất.
+  - Khi muốn chọn 1 phần tử dựa theo id thì ta dùng cú pháp #ten-id.
+
+ + Class:
+  - 1 phần tử có thể nhận 1 hoặc nhiều class.
+  - 1 tên class có thể dùng để đặt cho nhiều phần tử khác nhau.
+  - Khi muốn chọn 1 phần tử dựa theo class thì ta dùng cú pháp .ten-class.
+
+ 
+
