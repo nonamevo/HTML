@@ -1,0 +1,107 @@
+      + Nhúng Iframee
+- Thẻ <iframe></iframe>: được sử dụng để hiển thị 1 trang web.
+- Cú pháp:
+ + <iframe src="url" title="mô tả trang" height="200" width="300"></iframe>.
+- Mục tiêu cho liên kết:
+ + Thuộc tính target của liên kết phải tham chiếu đến thuộc tính name của iframe.
+- Ví dụ:
+ + <iframe src="https://www.ping.com/" name="web_bing" width="1000" height="600"</iframe>.
+* Lưu ý: Một số trang như google.com không cho phép nhúng iframe, nên sẽ thấy thông báo từ chối kết nối, chỉ những trang nào cho phép nhúng vào thì ta mới được.
+--------------------------------------
+      + Một số thẻ Semantic
+/sử dụng nhiều:
+- Senantic: dịch ra là ngữ nghĩa, là những thẻ có nội dung bên trong có ý nghĩa tương ứng với tên thẻ đó.
+- Một số thẻ Semantic:
+ + <article>: xác định nội dung đọc lập, khép kín.
+ + <aside>: xác định nội dung ngoài trang.
+ + <header>: chỉ định tiêu đề cho 1 tài liệu hoặc section.
+ + <footer>: xác định chân trang cho tài liệu hoặc section.
+ + <main>: chỉ định nội dung chính cho tài liệu 
+ + <nav>(navigation- dẫn đường): xác định các liên kết điều hướng.
+ + <section>: xác định một phần trong tài liệu.
+/ít dùng:
+ + <time>: xác định ngày, giờ.
+ + <details> xác định các chi tiết bổ sung mà người dùng có thể xem hoặc ẩn.
+ + <summary>: xác định tiêu đề hiển thị cho phần tử <details>.
+ + <figcaption>: xác định chú thích cho phần tử <figure>.
+ + <figure>: chỉ định nội dung độc lập, như hình minh họa, sơ đồ, ảnh, danh sách mã, vv.
+------------------------------------
+	+ Forms
+- Form là gì?
+ + Là một biểu mẫu HTML được sử dụng để thu thập thông tin đầu vào của người dùng, đầu vào của người dùng thường được gửi đến máy chủ để xử lý.
+- Ví dụ:
+ + <form action="">
+  <label for="fullName"họ tên</label/
+   <input type="text" id="fullName" name="full_name"/>
+   <form/>
+
++ Form Attributes:
+ - action: thuộc tính action xác định hành động sẽ được thực hiện khi biểu mẫu được gửi, giá trị là 1 đường dẫn, thông thường dữ liệu biểu mẫu được gửi đến tệp trên máy chủ khi có người dùng nhấp vào nút gửi.
+ - target: thuộc tính target chỉ định nơi hiển thị pahnr hồi nhận được sau khi gửi biểu mẫu.
+
++ method: thuộc tính method chỉ định giao thức HTTP sẽ được sử dụng khi gửi dữ liệu biểu mẫu.
++ Có 2 phương thức là GET và POST.
+ - Phương thức GET:
+  - Nối dữ liệu biểu mẫu vào URL, theo cặp name/value.
+  - Không bao giờ sử dụng GET để gửi dữ liệu bảo mật . như tài khoản, mật khẩu.
+  - Độ dài của URL bị giới hạn (2048 ký tự).
+ - Phương thức POST:
+  - Dữ liệu biểu mấu đã gửi không được hiển thị trong URL.
+  - POST không có giới hạn về kích thước và vó thể được sử dụng để gửi 1 lượng lớn dữ liệu.
+
++ autocomplete: khi bật tindh năng tự động điền, trình sẽ tự động gợi ý các giá trị dựa trên các giá trị mà người dùng đã nhập trước đó.
++ novalidate: thuộc tính này đặc tả dữ liệu form không cần phải kiểm tra tính chính xác dữ liệu khi gửi đi. vd email không cần nhập đúng định dạng vẫn gửi được.
+
++ <input> 
+ - Có thể được hiển thị theo nhiều cách, tùy thuộc vào type.
+ - Mặc định type="text"
++ <label
+ - Phần tử label xác định nhãn cho 1 số element trong biểu mẫu. để người dùng hiểu hơn về element đó.
+ - Thuộc tính for của thẻ label phải bằng thuộc tính id của phần tử input để liên kết chúng lại với nhau. khi đó click vào label thì con trỏ sẽ tự động focus vào ô input đó (mở rộng ra có thể áp dụng cho 1 số kiểu element khác, không chỉ áp dụng cho input).
+
++ select
+ - Hiển thị dạng danh sách thả xuống (dropdown).
+ - Các thẻ  option xác định một tùy chọn có thể được chọn. theo mặc định, mục tiêu đầu tiên trong danh sách thả xuống sẽ được chọn. để thay đổi mặc định lựa chọn thì thêm thuộc tính "selected" vào <option> muốn chọn mặc định.
+ - Sử dụng thuộc tính size để chỉ định số lượng giá trị hiển thị.
+ - sử dụng thuộc tính "multiple" để cho phép người dùng chọn nhiều giá trị.
+
++ textarea 
+ - thẻ textarea xác định trường nhập dữ liệu nhiều dòng.
+ - thuộc tính rows chỉ định số dòng hiển thị của vùng văn bản.
+
++ button
+ - Thẻ button xác định nút có thể nhấp.
+
++ Input types (các kiểu input)
+ - <input tyoe="text": dùng để nhập text.
+ - <input tyoe="email": dùng để nhập email.
+ - <input tyoe="password": dùng để nhập mật khẩu.
+ - <input tyoe="number": dùng để nhập số, không nhập được chữ cái.
+ - <input tyoe="date": dùng để chọn ngày tháng năm.
+ - <input tyoe="datetime-local": dùng để chọn: năm tháng ngày giờ phút giây.
+ - <input tyoe="file": dùng để tải file lên.
+ <input tyoe="checkbox": các hộp kiểm cho phép người dùng chọn KHÔNG hoặc NHIỀU tùy chọn trong số các lựa chọn hạn chế.
+ - <input tyoe="radio": các nút cho phép người dùng chỉ chọn một trong số các lựa chọn.
+ - <input tyoe="range": tạo thanh trượt giá trị. phạm vi mặc định từ 0->100. step mặc định là 1.
+ - <input tyoe="color": dùng để chọn màu sắc.
+
++ Input Attributes (các thuộc tính của thẻ input).
+ - value: chỉ giá trị ban đầu cho trường đầu vào.
+ - readonly:
+  + Thuộc tính readonly xác định rằng trường đầu vào là chỉ đọc.
+  + Giá trị của trường readonly sẽ được gửi biểu mẫu.
+ - disabled:
+  + Thuộc tính disabled chỉ định rằng 1 trường đầu vào sẽ bị vô hiệu hóa.
+  + Giá trị của trường disabled sẽ không được gửi biểu mẫu.
+ - maxlength: chỉ định số lượng ký tự tối đa được phép trong 1 môi trường đầu vào.
+ - max và min: chỉ định các giá trị tối thiểu và tối đa cho 1 trường đầu vào.
+- multiple: xác định rằng người dùng được phép nhập nhiều hơn 1 giá trị áp dụng cho kiểu select.
+ - placeholder: chỉ định 1 gợi ý ngắn để mô tả giá trị dự kiến.
+ - required: xác định rằng trường đầu vào phải được điền trước khi gửi biểu mẫu.
+------------------------------------
+      + Những tính năng HTML5 có mà HTML không có.
+- HTML5 được tính hợp video và âm thanh trong khi HTML không có.
+- HTML5 có thêm các thẻ semantic mới.
+- Cung cấp các kiểu inout mới.
+- thẻ canvas giúp cho việc vẽ sơ đồ 2D.
+- Hỗ trợ CSS3.
