@@ -1,4 +1,5 @@
-      + Nhúng Iframee
+1. Nhúng Iframee
+
 - Thẻ <iframe></iframe>: được sử dụng để hiển thị 1 trang web.
 - Cú pháp:
  + <iframe src="url" title="mô tả trang" height="200" width="300"></iframe>.
@@ -7,8 +8,9 @@
 - Ví dụ:
  + <iframe src="https://www.ping.com/" name="web_bing" width="1000" height="600"</iframe>.
 * Lưu ý: Một số trang như google.com không cho phép nhúng iframe, nên sẽ thấy thông báo từ chối kết nối, chỉ những trang nào cho phép nhúng vào thì ta mới được.
---------------------------------------
-      + Một số thẻ Semantic
+
+2.Một số thẻ Semantic
+
 /sử dụng nhiều:
 - Senantic: dịch ra là ngữ nghĩa, là những thẻ có nội dung bên trong có ý nghĩa tương ứng với tên thẻ đó.
 - Một số thẻ Semantic:
@@ -25,8 +27,9 @@
  + <summary>: xác định tiêu đề hiển thị cho phần tử <details>.
  + <figcaption>: xác định chú thích cho phần tử <figure>.
  + <figure>: chỉ định nội dung độc lập, như hình minh họa, sơ đồ, ảnh, danh sách mã, vv.
-------------------------------------
-	+ Forms
+
+3. Forms
+
 - Form là gì?
  + Là một biểu mẫu HTML được sử dụng để thu thập thông tin đầu vào của người dùng, đầu vào của người dùng thường được gửi đến máy chủ để xử lý.
 - Ví dụ:
@@ -80,7 +83,7 @@
  - <input tyoe="date": dùng để chọn ngày tháng năm.
  - <input tyoe="datetime-local": dùng để chọn: năm tháng ngày giờ phút giây.
  - <input tyoe="file": dùng để tải file lên.
- <input tyoe="checkbox": các hộp kiểm cho phép người dùng chọn KHÔNG hoặc NHIỀU tùy chọn trong số các lựa chọn hạn chế.
+ - <input tyoe="checkbox": các hộp kiểm cho phép người dùng chọn KHÔNG hoặc NHIỀU tùy chọn trong số các lựa chọn hạn chế.
  - <input tyoe="radio": các nút cho phép người dùng chỉ chọn một trong số các lựa chọn.
  - <input tyoe="range": tạo thanh trượt giá trị. phạm vi mặc định từ 0->100. step mặc định là 1.
  - <input tyoe="color": dùng để chọn màu sắc.
@@ -95,11 +98,11 @@
   + Giá trị của trường disabled sẽ không được gửi biểu mẫu.
  - maxlength: chỉ định số lượng ký tự tối đa được phép trong 1 môi trường đầu vào.
  - max và min: chỉ định các giá trị tối thiểu và tối đa cho 1 trường đầu vào.
-- multiple: xác định rằng người dùng được phép nhập nhiều hơn 1 giá trị áp dụng cho kiểu select.
+ - multiple: xác định rằng người dùng được phép nhập nhiều hơn 1 giá trị áp dụng cho kiểu select.
  - placeholder: chỉ định 1 gợi ý ngắn để mô tả giá trị dự kiến.
  - required: xác định rằng trường đầu vào phải được điền trước khi gửi biểu mẫu.
-------------------------------------
-      + Những tính năng HTML5 có mà HTML không có.
+
+4. Những tính năng HTML5 có mà HTML không có.
 - HTML5 được tính hợp video và âm thanh trong khi HTML không có.
 - HTML5 có thêm các thẻ semantic mới.
 - Cung cấp các kiểu inout mới.
