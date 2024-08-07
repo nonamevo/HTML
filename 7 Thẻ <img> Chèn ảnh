@@ -1,0 +1,6 @@
+Thẻ <img> (chèn ảnh)
+ - Thẻ <img/>: là thẻ để nhúng ảnh vào trang web, thẻ img là thẻ trống, chỉ chứa các thuộc tính và không có thẻ đóng.
+ - Cú pháp: <img src="duong-dan-hinh-anh.ipg" alt="mô tả hình ảnh">.
+ - Thuộc tính:
+  + src (source- nguồn): chèn đường dẫn ảnh.
+  + alt (alternate- thay thế): văng bản thay thế cho hình ảnh, khi đường dẫn ảnh bị lỗi.
