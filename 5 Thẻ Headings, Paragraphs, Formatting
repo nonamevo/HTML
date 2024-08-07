@@ -1,0 +1,30 @@
+Thẻ Headings, Paragraphs, Formatting:
+
+* Headings (tiêu đề)
+ - Là những tiêu đề hoặc phụ đề hiển thị trên web.
+ - Có 6 thẻ heading:
+  + h1: thẻ tiêu đề quan trọng nhất. mỗi trang chỉ có 1 thẻ h1, nếu có nhiều hơn nó vẫn chạy nhưng không chuẩn SEO.
+  + h2
+  + h3 
+  + h4
+  + h5 
+  + h6: thẻ tiêu đề ít quan trọng nhất.
+
+* Paragraphs (đoạn văn)
+ - Luôn luôn bắt đầu trên 1 dòng mới và thường là 1 khối văn bản.
+ - Cú pháp: <p>nội dung...</p>.
+  + 1 số thẻ liên quan:
+ - <hr>(horizontal ruleles - quy tắc ngang): dùng để ngắt chủ để, được hiển thị dưới dạng 1 đường kẻ ngang(empty tag - thẻ trống).
+ - <br>(break-ngắt): dùng để ngắt dòng trong 1 đoạn văn bản.
+
+* Forrmatting (định dạng)
+ - b (bold- in đậm): văn bản in đậm.
+ - strong: văn bản in đậm và quan trọng.
+ - i (italic- in nghiêng): văn bản in nghiêng.
+ - em (emphasized- nhấn mạnh): văn bản in nghiêng và quan trọng.
+ - small: văn bản chử nhỏ hơn.
+ - sub (subscripted- chỉ số dưới): văn bản có chỉ số dưới.
+ - sup (superscripted- chỉ số trên): văn bản có chỉ số trên.
+ - ins (inserted- chèn): văn bản được chèn, có gạch chân bên dưới.
+ - del (deleted- xóa): văn bản đã xóa, gạch ở giữa chữ.
+ - mark (marked- đánh dấu): văn bản được đánh dấu.
