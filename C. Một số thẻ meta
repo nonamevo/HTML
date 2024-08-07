@@ -1,4 +1,5 @@
 Một số thẻ meta:
+
  - <meta charset="UTF-8">: xác định bộ kí tự được sử dụng, utf-8 để hỗ trợ tiếng việt.
  - <meta name="keywords" content="HTML,CSS,JavaScript">: công cụ tìm kiếm.
  - <meta name="description" content="Free Web tutorials">: mô tả về trang web của bạn. 
