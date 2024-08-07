@@ -1,0 +1,14 @@
+File Paths (đường dẫn)
+ - Absolute File Paths (đường dẫn tệp tuyệt đối): là URl đầy đủ của tệp. 
+  + <img src="https://28tech.com.vn/assets/img/logo.png" alt="logo 28tech">.
+ - Relative File Paths(đường dẫn tệp tương đối): trỏ đến một tệp liên quan đến trang hiện tại.
+  + <img src="logo.png" alt ="logo">: file "logo.png" nằm cùng thư mục hiện tại.
+  + <img src="images/logo.png">: file "picture.png" nằm trong thư mục images trong thư mục hiện tại.
+  + <img src="/iamges/logo.png">: file "picture.png" nằm trong thư mục gốc của trang web hiện tại.
+  + <img src="../logo.png">: file "oicture.png" nằm trong thư mục tăng một cấp so với thư mục hiện tại.
+  
+ - Kết hợp thẻ a với thẻ img
+  + <a href=https://28tech.com.vn/
+<img rc="https://28tech.com.vn/asets/img/logo.png" alt="logo 28tech"> 
+    </a>.
+
