@@ -1,0 +1,15 @@
+Thẻ <audio> (chèn audio)
+ - Thẻ <audio></audio>: là thẻ để nhúng audio vào trang web. trong thẻ audio có thẻ <source> để chứa đường dẫn file audio và kiểu audio.
+ - Cú pháp :
+  + <audio src="link-audio.mp3" type="audio/mpeg">
+    </audio>
+ - Thuộc tính:
+  + controls: thuộc tính điểu khiển, bật, tạm dừng, âm lượng.
+  + loop: lặp lại audio.
+  + src: đương dẫn audio.
+  + type: kiểu video (vd: mpeg- lag mp3, ogg, webm, wav).
+  + autoplay : tự đọng phát audio.
+  + muted: tắt tiếng.
+* Lưu ý:
+ - Đoạn văn bản ở trong thẻ audio sẻ chỉ hiển thị khi trình duyệt không hỗ trợ thẻ audio.
+ - Trên trình duyệt chrome không cho phép tự động phát video. nếu muốn tự động phát được thì phải thêm thuộc tính muted.
