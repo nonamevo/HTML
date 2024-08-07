@@ -1,0 +1,39 @@
+Class và Id
+
+ - Class: 
+  + Thuộc tính class dùng để xác định một hoặc nhiều tên lớp cho phần tử html. tên lướp có thể dùng trong css hoặc javascript để thực hiện 1 số tác vụ nhất định cho phần tử có tên lớp đó
+   - 1 class có thể áp dụng cho được nhiều element và các element này không nhất thiết phải cùng loại thẻ.
+   - 1 element có thể thêm được nhiều class.
+   - Thuộc tính class có thể được sử dụng trên bất kỳ phần tử html nào.
+   - Tên lớp có phân biệt chữ hoa chữ thường.
+
+ - Id:
+  + Thuộc tính id dùng để xác định một id duy nhất cho một element.
+   - Trog 1 trang các element không được phép trùng tên id.
+   - Tên id có thể dùng trong css hoặc javascript để thực hiện 1 số tác vụ nhất định cho phần tử có tên id đó.
+   - Tên id có phân biệt chữ hoa chữ thường.
+   - Lưu ý: tên id phải chứa ít nhất 1 ký tự, không được bắt đầu bằng số và không chứa khoảng trắng (dấu cách,tab).
+
+* Quy tắc đặt tên class và id (giống nhau):
+  - Các ký tự là chữ cái viết thường: từ a->z.
+  - Các ký tự là chứ cái viết hoa: từ A->Z.
+  - Các ký tự là chữ số: 0->9.
+  - Dấu gạch dưới: _
+  - Dấu gạch nối: -
+
+* Lưu ý: tên id và tên class tuyệt đối:
+  - Không chứa các ký tự đặc biệt ( vd: !@#$%^&).
+  - Không bắt đầu là 1 số từ 0->9.
+
+* Điểm khác nhau giữa id và class:
+ + Id :
+  - 1 phần tử chỉ nhận 1 id.
+  - 1 tên id chỉ có thể dùng để đặt cho 1 phần tử duy nhất.
+  - Khi muốn chọn 1 phần tử dựa theo id thì ta dùng cú pháp #ten-id.
+
+ + Class:
+  - 1 phần tử có thể nhận 1 hoặc nhiều class.
+  - 1 tên class có thể dùng để đặt cho nhiều phần tử khác nhau.
+  - Khi muốn chọn 1 phần tử dựa theo class thì ta dùng cú pháp .ten-class.
+
+ 
