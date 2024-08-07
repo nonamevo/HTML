@@ -1,0 +1,18 @@
+Thẻ <video> (chèn video)
+
+ - thẻ <video></video>: là thẻ để nhúng video vào trang web. Trong thẻ video có thẻ <source> để chứa đường dẫn file video và kiểu video.
+ - Cú pháp:
+  + <video width="320" height="240" control>
+<source src="link-video.mp4" type="video/mp4">
+   </video>.
+ - Thuộc tính:
+  + width/height: chiều rộng và chiều cao của video. Nếu không để width/height thì web có thể bị nhấp nháy trong khi tải video.
+  + controls: thuộc tính điều khiển, như là bật, tạm dùng, âm lượng.
+  + loop: lặp lại video.
+  + src: đường dẫn video.
+  + type: kiểu video (mp4, ogg, webm).
+  + autoplay: tự động phát video.
+  + muted: tắt tiếng.
+* Lưu ý:
+ - Đoạn văn bản ở trong thẻ video sẻ chỉ hiện thị khi trình duyệt không hỗ trợ video.
+ - Trên trình duyệt chrome không cho phép tự đọng phát video. Muốn tự phát video thì thêm thuộc tính muted.
