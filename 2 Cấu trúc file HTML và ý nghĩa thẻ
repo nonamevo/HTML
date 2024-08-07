@@ -1,4 +1,4 @@
-Cấu trúc file HTML và ý nghĩa thẻ:
+Cấu trúc file HTML và Ý nghĩa thẻ:
  - title: tiêu đề trang.
  - DOCTYPEhtml: DOCTYPE dịch ra là kiểu tài liệu, để khai báo kiểu tài liệu gì, cụ thể điền html có nghĩa là tài liệu viết bằng HTML.
  - <html></html>: thẻ bắt buộc, element cấp cao nhất, có nhiệm vụ đóng gói tất cả nội dung của trang HTML.
