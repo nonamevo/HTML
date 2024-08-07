@@ -1,0 +1,19 @@
+Phân biệt kiểu hiện thị của elemrnt: block và inline
+ - Kiểu block (khối):
+  + luôn luôn bắt đầu trên 1 dòng mới, và trình duyệt sẽ tự động thêm khỏng trống trước và sau element.
+  + Luôn luôn chiếm toàn bộ chiều rộng có sẵn.
+  + 1 số thẻ dạng block hay dùng:
+   - div, footer, form, h1->h6, header, hr, li, main, nav, ol, p, section, table, ul.
+
+ - Kiểu inline (nội tuyến- trong hàng)
+  + Không bắt đầu trên 1 dòng mới, chiều rộng bằng với chiều rộng của ekement đó.
+  + 1 số thẻ dạng inline:
+   - a, b, br, button, em, i, img, input, label, select, span, strong, textarea.
+
+* Lưu ý:
+ - Khi sử dụng cần nhớ quy tắc đảm bảo mô hình nội dung của HTML:
+  + Phần tử cấp đọ inline không được chứa phần tử cấp độ block.
+  + Inline chỉ chứa dữ liệu hoặc các phần tử inline khác.
+  + Phần tử block thì được chứa các phần tử block, inline, dữ liệu.
+  + Có trường hợp ngoại lệ là thẻ a (kiểu inline) nhưng có thể chứa phần tử kiểu block.
+
