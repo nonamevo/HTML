@@ -1,0 +1,6 @@
+Một số thẻ meta
+ - <meta charset="UTF-8">: xác định bộ kí tự được sử dụng, utf-8 để hỗ trợ tiếng việt.
+ - <meta name="keywords" content="HTML,CSS,JavaScript">: công cụ tìm kiếm.
+ - <meta name="description" content="Free Web tutorials">: mô tả về trang web của bạn. 
+ - <meta name="author" content="John Doe">: tác gải của 1 trang.
+ - <meta name="viewport" content="width=device-width, initial-scale=1.0">: đặt chế độ xem để hiển thị tốt trên tất cả thiết bị.
