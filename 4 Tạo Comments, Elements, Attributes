@@ -1,0 +1,28 @@
+Tạo Comments, Elements, attributes
+
+* Comments(chú thích)
+ - Là các chú thích để dễ nhớ và dễ nhìn, hiểu được đoạn code ấy có ý nghĩa là gì 'không hiển thị trên website'.
+ - Cú pháp: <!--nội dung được comments-->.
+ - Phím tắt: ctrl+/(windowns) hoặc cmd+/(mac).
+
+* Elements(phần tử)
+ - Được xác định bởi:
+  + Một thẻ bắt đầu
+  + Một vài nội dung
+  + Một thẻ kết thúc
+ - Cú pháp: <tagname>nội dung</tagname>.
+ - Trong đó: 
+  + <tagname>: thẻ bắt đầu element
+  + </tagname>: thẻ kết thúc của element
+  + Nội dung: nội dung của elment
+ - Ví dụ: <h1>tiêu đề lớn</h1>.
+ - Các tagname không phân biệt chữ hoa, chứ thường. nên viết chữ thường.
+
+* Attributes(thuộc tính)
+ - Cung cấp thêm thông tin cho các element, nằm trong thẻ mở.
+ - Một elmwnt có thể nhiều thuộc tính.
+ - Cú pháp: <tagname attribute-name="value">nội dung...</tagname>.
+ - Trong đó:
+  + attibute-name: tên thuộc tính
+  + "value": giá trị của thuộc tính
+ - Ví dụ: <html lang="vi"></html>
