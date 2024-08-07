@@ -1,0 +1,9 @@
+Thẻ <a> (chèn link)
+ - Thẻ <a></a> (anchor- mỏ neo): là thẻ để khi click vào sẽ chuyển hướng đến trang khác.
+ - Cú pháp: <a href="url>text</a>.
+ - Thuộc tính:
+  + href (Hypertext Reference- tài liệu tham khảo dạng siêu văn bản): thuộc tính xác định địa chỉ liên kết.
+  + target: thuộc tính xác định nơi mà tài liệu được mở.
+   - _self: mặc định. mở tài liệu ở tab hiện tại.
+   - _blank: mở tài liệu trong tab mới.
+  + title: thông tin bổ sung về một element.
