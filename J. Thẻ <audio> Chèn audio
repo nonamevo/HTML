@@ -1,6 +1,6 @@
 Thẻ <audio> (chèn audio)
  - Thẻ <audio></audio>: là thẻ để nhúng audio vào trang web. trong thẻ audio có thẻ <source> để chứa đường dẫn file audio và kiểu audio.
- - Cú pháp :
+ - Cú pháp:
   + <audio src="link-audio.mp3" type="audio/mpeg">
     </audio>
  - Thuộc tính:
