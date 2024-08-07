@@ -1,4 +1,5 @@
-Thẻ <a> (chèn link)
+Thẻ <a> (chèn link):
+
  - Thẻ <a></a> (anchor- mỏ neo): là thẻ để khi click vào sẽ chuyển hướng đến trang khác.
  - Cú pháp: <a href="url>text</a>.
  - Thuộc tính:
