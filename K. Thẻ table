@@ -1,0 +1,12 @@
+Thẻ table
+ - Thẻ <table></table>: dùng để tạo bảng trong html.
+ - Ý nghĩa các thẻ:
+  + <table></table>: xác định một bảng.
+  + <thead></thead>: phần đầu của bảng.
+  + <tbody></tbody>: phần thân của bảng.
+  + <tr></tr>(table row): xác định 1 hàng của bảng.
+  + <th></th>(table header): xác định tiêu đề của bảng.
+  + <tf></td>(table data): xác định dữ liệu của bảng.
+ - Thuộc tính: 
+  + colspan: tạo ô mở rộng trên nhiều cột.
+  + rowspan: tạo ô kéo dài trên nhiều hàng.
