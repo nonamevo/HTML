@@ -1,0 +1,19 @@
+Thẻ ul, ol (chèn danh sách)
+
+ - Kiểu ul:
+  + kiểu <ul></ul>(Unordered List- không sawos xếp): các mục con của nó sẽ không được đánh số mà chỉ được đánh dấu bằng hình tròn.
+ - Cú pháp:
+  + <ul>
+  <li>mục 1</li>
+   </ul>
+ - Ý nghĩa các thẻ:
+  + <ul></ul>(Unordered List): danh sách không hiển thị đánh số.
+  + <li></li>(List Item): 1 mục trong danh sách.
+
+ - Kiểu ol
+ - Thuộc tính dành riêng cho thẻ <ol></ol>: 
+  + type="1": mặc định, các mục sẽ đánh dưới dạng số.
+  + type"A": các mục sẽ đánh dưới dạng in hoa.
+  + type"a": các mục sẽ đánh dưới dạng chữ thường.
+  + type"I": các mục sẽ đánh dưới dạng La Mã viết hoa.
+  + type"i: các mục sẽ đánh dưới dạng La Mã viết thường. 
